@@ -21,11 +21,11 @@ public class MemberTreeSet {
 			Member member = ir.next();
 			if(member.getMemberId() == memberId) {
 				treeset.remove(member);
-				System.out.println("ÀÌ¸§ : "+member.getMemberName()+" °¡ »èÁ¦µÇ¾ú½À´Ï´Ù.");
+				System.out.println("ì´ë¦„ : "+member.getMemberName()+" ê°€ ì‚­ì œë˜ì—ˆìŠµë‹ˆë‹¤.");
 				return true;
 			}
 		}
-		System.out.println(memberId + "¹øÈ£°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");
+		System.out.println(memberId + "ë²ˆí˜¸ê°€ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 		return false;
 	}
 	

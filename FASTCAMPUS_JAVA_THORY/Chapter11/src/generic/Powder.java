@@ -3,13 +3,13 @@ package generic;
 public class Powder extends Meterial{
 
 	public String toString() {
-		return "Àç·á´Â Powder ÀÔ´Ï´Ù.";
+		return "ìž¬ë£ŒëŠ” Powder ìž…ë‹ˆë‹¤.";
 	}
 	
 	@Override
 	public void doPrint() {
 		// TODO Auto-generated method stub
-		System.out.println("Powder ÇÁ¸°ÆÃ ÀÔ´Ï´Ù.");
+		System.out.println("Powder í”„ë¦°íŒ… ìž…ë‹ˆë‹¤.");
 	}
 	
 }
