@@ -11,10 +11,10 @@ public class HashSetTest {
 
 		HashSet<String> set = new HashSet<String>();
 		
-		set.add("ÀÌ¼ø½Å");
-		set.add("±èÀ¯½Å");
-		set.add("°­°¨Âù");
-		set.add("ÀÌ¼ø½Å");
+		set.add("ì´ìˆœì‹ ");
+		set.add("ê¹€ìœ ì‹ ");
+		set.add("ê°•ê°ì°¬");
+		set.add("ì´ìˆœì‹ ");
 		
 		for (String string : set) {
 			System.out.println(string);
@@ -31,10 +31,10 @@ public class HashSetTest {
 
 		ArrayList<String> set_a = new ArrayList<String>();
 		
-		set_a.add("ÀÌ¼ø½Å");
-		set_a.add("±èÀ¯½Å");
-		set_a.add("°­°¨Âù");
-		set_a.add("ÀÌ¼ø½Å");
+		set_a.add("ì´ìˆœì‹ ");
+		set_a.add("ê¹€ìœ ì‹ ");
+		set_a.add("ê°•ê°ì°¬");
+		set_a.add("ì´ìˆœì‹ ");
 		
 		for (String string : set_a) {
 			System.out.println("ArrayList"+string);

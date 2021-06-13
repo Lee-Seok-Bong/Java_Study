@@ -18,9 +18,9 @@ public class ComparatorTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		TreeSet<String> treeSet = new TreeSet<String>(new MyCompare());
-		treeSet.add("È«±æµ¿");
-		treeSet.add("°­°¨Âù");
-		treeSet.add("ÀÌ¼ø½Å");
+		treeSet.add("í™ê¸¸ë™");
+		treeSet.add("ê°•ê°ì°¬");
+		treeSet.add("ì´ìˆœì‹ ");
 		
 		for (String string : treeSet) {
 			System.out.println(string);

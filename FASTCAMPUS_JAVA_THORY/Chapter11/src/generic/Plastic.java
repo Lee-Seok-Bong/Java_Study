@@ -4,14 +4,14 @@ public class Plastic extends Meterial{
 	
 	public String toString() {
 		
-		return "Àç·á´Â Plastic ÀÔ´Ï´Ù.";
+		return "ì¬ë£ŒëŠ” Plastic ì…ë‹ˆë‹¤.";
 		
 	}
 
 	@Override
 	public void doPrint() {
 		// TODO Auto-generated method stub
-		System.out.println("Plastic ÇÁ¸°ÆÃ µË´Ï´Ù.");
+		System.out.println("Plastic í”„ë¦°íŒ… ë©ë‹ˆë‹¤.");
 	}
 	
 	
