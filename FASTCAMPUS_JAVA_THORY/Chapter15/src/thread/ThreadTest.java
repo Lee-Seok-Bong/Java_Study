@@ -19,12 +19,7 @@ public class ThreadTest {
 
 	public static void main(String[] args) {
 		System.out.println("start");
-		
-//		MyThread th1 = new MyThread();
-//		MyThread th2 = new MyThread();
-//		
-//		th1.start();
-//		th2.start();
+
 		
 		MyThread runner1 = new MyThread();
 		Thread th1 = new Thread(runner1);
